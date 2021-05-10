@@ -172,7 +172,7 @@ from tensorflow import keras
 model = keras.models.load_model("myModel.h5")
 
 # load weights
-model.load_weights("weights.best.hdf5")
+#model.load_weights("weights.best.hdf5")
 
 encoder_inputs = model.input[0]
 encoder_outputs, state_y_enc, state_x_enc = model.layers[2].output

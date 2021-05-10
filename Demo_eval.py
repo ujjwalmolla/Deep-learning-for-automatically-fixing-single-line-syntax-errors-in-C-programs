@@ -169,7 +169,7 @@ for i, (source_l, target_l) in enumerate(zip(padded_source_line_valid, padded_ta
 """**Load the Model**"""
 
 from tensorflow import keras
-model = keras.models.load_model("myModel.h5")
+model = keras.models.load_model("myModel")
 
 # load weights
 #model.load_weights("weights.best.hdf5")
